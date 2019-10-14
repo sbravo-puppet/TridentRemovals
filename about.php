@@ -30,7 +30,7 @@
     </header>    
     <nav class="navbar">
       <div class="navbarlinks">
-        <a class="navlink" href="home.html">Home</a>
+        <a class="navlink" href="index.html">Home</a>
       </div>
       <div class="navbarlinks">
         <a class="navlink" id="active" href="about.php">About</a>
