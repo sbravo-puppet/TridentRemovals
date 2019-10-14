@@ -1,1 +1,79 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trident Removals GC - Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Trident Removals GC - Gold Coast's expert removalists who specialise in moving units, apartments and houses.">
+    <meta name="keywords" content="Trident, Removals, Gold Coast, removalists, local, expert, cheap, affordable">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>    
+    <header itemscope itemtype="http://schema.org/LocalBusiness">
+      <div class="logo">
+        <img class="tridentlogo" src="images/tridentheaderlogo.png" alt="Trident Removals Header logo" itemprop="logo" />
+      </div>
+      <div class="contact">
+        <h1>CALL NOW: <a href="tel:0411111111" itemprop="telephone">0411111111</a></h1>
+      </div>    
+    </header>    
+    <nav class="navbar">
+      <div class="navbarlinks">
+        <a class="navlink" id="active" href="index.html">Home</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="about.php">About</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="services.html">Services and Pricing</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="freequote.html">Get a Free Quote</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="bookremoval.html">Book a Removal</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="contact.html">Contact</a>
+      </div>        
+    </nav>
+    <div id="page"> <!-- This div provides responsive layout with breakpoints -->
+    <div class="body"> <!-- Initial body div -->
+      <div>
+        <img id="homejumbo" class="tridentlogo" alt="Trident Removals Banner" src="images/tridentbannerlogo.png">
+      </div>
+        <div class="accreditation">
+            <img id="afrapic" alt="AFRA Picture" src="images/newafralogo.png"/><br>
+            <h2>
+            <a class="locallinks" target="_blank" href="http://www.oxbridge.com.au/agents?agent_id=8482">Oxbridge Real Estate - Gold Coast</a><br>
+            <a class="locallinks" target="_blank" href="http://www.gcreq.com.au/">Gold Coast Real Estate</a><br>
+            <a class="locallinks" target="_blank" href="https://www.goldcoaststorageco.com.au/">Gold Coast Storage Co.</a><br>
+            <a class="locallinks" target="_blank" href="https://www.storageking.com.au/southport/">Storage King - Southport</a><br>
+            </h2>
+        </div> 
+        <div class="unorderedlist">
+          <h1>Tride N' True Service - Why Us?</h1>
+          <ul><h2>
+            <li>Affordable services</li>
+            <li>Local knowledge</li>
+            <li>Proven track record</li>
+            <li>Committed, experienced staff</li>
+            <li>Will beat any offer for the same job</li>
+            <li>AFRA accredited removalists</li>
+            </h2>
+          </ul>
+        </div>              
+    </div> <!-- div class = "body" -->
+    </div> <!-- div id = "page" -->
+    <footer>
+     <div class="logo">
+        <img class="tridentlogo" src="images/tridentheaderlogo.png" alt="Trident Removals Footer logo"/>
+     </div>
+     <div class="contact">
+       <a target="_blank" href="https://www.facebook.com/"><img class="icon" src="images/facebook-icon.png" alt="Facebook link"/></a><br>
+       <a target="_blank" href="https://au.linkedin.com/"><img class="icon" src="images/linkedin-icon.png" alt="LinkedIn link"/></a><br>
+       <span id="copyright">© 2019 – Sean Bourchier</span>
+     </div>  
+    </footer>
+  </body>
+</html>
