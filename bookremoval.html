@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trident Removals GC - Book Removal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Trident Removals GC - Booking Page. Book a removal now and save.">
+    <meta name="keywords" content="Trident, Removals, Gold Coast, removalists, local, expert, cheap, affordable, booking">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>    
+    <header itemscope itemtype="http://schema.org/LocalBusiness">
+      <div class="logo">
+        <img class="tridentlogo" src="images/tridentheaderlogo.png" alt="Trident Removals Header logo" itemprop="logo" />
+      </div>
+      <div class="contact">
+        <h1>CALL NOW: <a href="tel:0411111111" itemprop="telephone">0411111111</a></h1>
+      </div>    
+    </header>    
+    <nav class="navbar">
+      <div class="navbarlinks">
+        <a class="navlink" href="home.html">Home</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="about.php">About</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="services.html">Services and Pricing</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="freequote.html">Get a Free Quote</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" id="active" href="bookremoval.html">Book a Removal</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="contact.html">Contact</a>
+      </div>        
+    </nav>
+    <div id="page"> <!-- This div provides responsive layout with breakpoints -->
+    <div class="body">      
+      <div class="bookingformdiv">
+        <div class="bookingformdiv1">
+          <form id="bookingform" method="get" action="bookremoval.html">
+          <h1> Book a Removal Now </h1>      
+          <fieldset> <!-- Customer details -->
+          <legend>Your details:</legend>            
+            <label class="bookingformlabel" for="bookingfirstname">First Name:</label>
+            <input class="bookingforminput" id="bookingfirstname" type="text"  name="bookingfirstname"/><br>            
+            <label class="bookingformlabel" for="bookinglastname">Last Name:</label>
+            <input class="bookingforminput" id="bookinglastname" type="text"  name="bookinglastname"/><br>            
+            <label class="bookingformlabel" for="bookingemail">Email:</label>
+            <input class="bookingforminput" id="bookingemail" type="email"  name="bookingemail"/><br>            
+            <label class="bookingformlabel" for="bookingphone">Phone number:</label>
+            <input class="bookingforminput" id="bookingphone" type="tel"  name="bookingphone"/><br>            
+          </fieldset>          
+          <fieldset> <!-- Removal details -->
+          <legend>Your removal details:</legend>          
+             <div>
+               <label for="removaldate" class="bookingformlabel">Date of removal:</label>
+               <input id="removaldate" type="date" class="bookingforminput" name="removaldate"/>
+             </div>             
+             <div >
+               <label for="removaltime" class="bookingformlabel">Preferred time of removal:</label>
+               <input id="removaltime" type="time" class="bookingforminput" name="removaltime"/>
+             </div>            
+             <div>
+              <label for="servicetype" class="bookingformlabel">Service required:</label>
+              <select class="bookingforminput" id="servicetype" name="servicetype">
+                <option value="1Man1Truck">1 Man and 1 Truck</option>
+                <option value="2Men1Truck">2 Men and 1 Truck</option>
+                <option value="3Men2Truck">3 Men and 2 Trucks</option>
+                <option value="4Men2Truck">4 Men and 2 Trucks</option>
+              </select>
+            </div>
+            </fieldset>             
+            <fieldset> <!-- Pick up property details -->
+            <legend>Pick up details</legend>
+            <div>
+              <label for="pickupaddress">Pick up address: </label><br>
+              <textarea id="pickupaddress" name="pickupaddress" rows="5">
+              </textarea>
+            </div>               
+            <div>
+              Type of property: 
+              <div class="radio">                
+                <input type="radio" id="singlestoreyhouse" name="pickuppropertytype" value="singlestoreyhouse">
+                <label for="singlestoreyhouse">Single storey house</label>
+              </div>
+              <div class="radio">                
+                <input type="radio" id="multistoreyhouse" name="pickuppropertytype" value="multistoreyhouse">
+                <label for="multistoreyhouse">Multi storey house</label>
+              </div>
+              <div class="radio">                
+                <input type="radio" id="groundfloorunit" name="pickuppropertytype" value="groundfloorunit">
+                <label for="groundfloorunit">Ground floor unit</label>
+              </div>
+              <div class="radio">                
+                <input type="radio" id="unitwithstairs" name="pickuppropertytype" value="unitwithstairs">
+                <label for="unitwithstairs">Unit with stairs</label>
+              </div>
+              <div class="radio">                
+                <input type="radio" id="apartmentwithlift" name="pickuppropertytype" value="apartmentwithlift">
+                <label for="apartmentwithlift">Apartment with lift</label>
+              </div>             
+            </div>
+            </fieldset>            
+            <fieldset>  <!-- Drop off property details -->
+            <legend>Drop off details</legend>
+            <div class="form-group">
+              <label for="dropoffaddress">Drop off address: </label><br>
+              <textarea class="form-control" id="dropoffaddress" name="dropoffaddress" rows="5">
+              </textarea>
+            </div>               
+            <div>
+              Type of property: 
+              <div class="radio">                
+                <input type="radio" id="singlestoreyhouse" name="dropoffpropertytype" value="singlestoreyhouse">
+                <label for="singlestoreyhouse">Single storey house</label>
+              </div>
+              <div class="radio">                
+                <input type="radio" id="multistoreyhouse" name="dropoffpropertytype" value="multistoreyhouse">
+                <label for="multistoreyhouse">Multi storey house</label>
+              </div>
+              <div class="radio">                
+                <input type="radio" id="groundfloorunit" name="dropoffpropertytype" value="groundfloorunit">
+                <label for="groundfloorunit">Ground floor unit</label>
+              </div>
+              <div class="radio">                
+                <input type="radio" id="unitwithstairs" name="dropoffpropertytype" value="unitwithstairs">
+                <label for="unitwithstairs">Unit with stairs</label>
+              </div>
+              <div class="radio">                
+                <input type="radio" id="apartmentwithlift" name="dropoffpropertytype" value="apartmentwithlift">
+                <label for="apartmentwithlift">Apartment with lift</label>
+              </div>             
+            </div>
+            </fieldset> <!-- Extra information -->      
+          <div class="bookingform-group">
+            <label for="extrainformation">Any extra information:</label><br>
+            <textarea placeholder="Enter any extra information that would assist with your removal." 
+            class="extrainformationtext" id="extrainformation" name="extrainformation" rows="10">            
+            </textarea>
+          </div>      
+          <input id="submitbooking" type="submit" onClick="validateBookingForm(event)" value="Book Removal Now" /> <!-- Submit button -->
+          </form>
+        </div> <!-- div class="bookingformdiv1" -->
+      </div> <!-- div class="bookingformdiv" -->
+    </div> <!-- div class="body" -->
+    </div> <!-- div id="page" -->
+    <footer>
+     <div class="logo">
+        <img class="tridentlogo" src="images/tridentheaderlogo.png" alt="Trident Removals Footer logo"/>
+     </div>
+     <div class="contact">
+       <a target="_blank" href="https://www.facebook.com/"><img class="icon" src="images/facebook-icon.png" alt="Facebook link"/></a><br>
+       <a target="_blank" href="https://au.linkedin.com/"><img class="icon" src="images/linkedin-icon.png" alt="LinkedIn link"/></a><br>
+       <span id="copyright">© 2019 – Sean Bourchier</span>
+     </div>  
+    </footer>
+  </body>
+</html>

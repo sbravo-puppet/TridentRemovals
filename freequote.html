@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trident Removals GC - Get Quote</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Trident Removals GC - Get a Free Quote today. Ring or fill in the form and we will get back to you ASAP.">
+    <meta name="keywords" content="Trident, Removals, Gold Coast, removalists, local, expert, cheap, affordable, quote, free">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>    
+    <header itemscope itemtype="http://schema.org/LocalBusiness">
+      <div class="logo">
+        <img class="tridentlogo" src="images/tridentheaderlogo.png" alt="Trident Removals Header logo" itemprop="logo" />
+      </div>
+      <div class="contact">
+        <h1>CALL NOW: <a href="tel:0411111111" itemprop="telephone">0411111111</a></h1>
+      </div>    
+    </header>    
+    <nav class="navbar">
+      <div class="navbarlinks">
+        <a class="navlink" href="home.html">Home</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="about.php">About</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="services.html">Services and Pricing</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" id="active" href="freequote.html">Get a Free Quote</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="bookremoval.html">Book a Removal</a>
+      </div>
+      <div class="navbarlinks">
+        <a class="navlink" href="contact.html">Contact</a>
+      </div>        
+    </nav>
+    <div id="page"> <!-- This div provides responsive layout with breakpoints -->
+    <div class="body">      
+      <div class="freequoteformdiv">
+        <div class="freequoteformdiv1">
+          <form id="quoteform" method="get" action="freequote.html">
+          <h1> Request Free Quote Now </h1>      
+          <div class="freequoteform-group"> <!-- Free Quote form - Name, Last Name, Email and Phone number -->
+            <label class="freequoteformlabel" for="quotefirstname">First Name:</label><br>
+            <input class="freequoteforminput" id="quotefirstname" type="text"  name="quotefirstname"/><br>            
+            <label class="freequoteformlabel" for="quotelastname">Last Name:</label><br>
+            <input class="freequoteforminput" id="quotelastname" type="text"  name="quotelastname"/><br>            
+            <label class="freequoteformlabel" for="quoteemail">Email:</label><br>
+            <input class="freequoteforminput" id="quoteemail" type="email"  name="quoteemail"/><br>            
+            <label class="freequoteformlabel" for="quotephone">Phone number:</label><br>
+            <input class="freequoteforminput" id="quotephone" type="tel"  name="quotephone"/><br>    
+          </div>      
+          <div class="freequoteform-group"> <!-- Job details -->
+            <label for="quotejobdetails">Job details:</label><br>
+            <textarea placeholder="Enter details of move and we will do our best to get back to you ASAP." class="freequotejobdetailstext" id="quotejobdetails" name="quotejobdetails" rows="10" cols="60">            
+            </textarea>
+          </div>      
+          <input id="submitfreequoterequest" type="submit" onClick="validateQuoteForm(event)" value="Get Free Quote" /><br> <!-- Submit button -->
+          <h2>We will get back to you ASAP.</h2>
+          </form>
+        </div> <!-- div class="freequoteformdiv1" -->
+      </div> <!-- div class="freequoteformdiv" -->
+    </div> <!-- div class="body" -->
+    </div> <!-- div id="page"-->
+    <footer>
+     <div class="logo">
+        <img class="tridentlogo" src="images/tridentheaderlogo.png" alt="Trident Removals Footer logo"/>
+     </div>
+     <div class="contact">
+       <a target="_blank" href="https://www.facebook.com/"><img class="icon" src="images/facebook-icon.png" alt="Facebook link"/></a><br>
+       <a target="_blank" href="https://au.linkedin.com/"><img class="icon" src="images/linkedin-icon.png" alt="LinkedIn link"/></a><br>
+       <span id="copyright">© 2019 – Sean Bourchier</span>
+     </div>  
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,249 @@
+@CHARSET "UTF-8";
+
+/* Below is CSS for Header, Nav bar and Footer of all pages */
+@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
+
+header, footer {
+    display:flex;
+    text-align:center;
+}
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+.logo .contact {
+    flex:1;    
+}
+.logo {
+    width:50%;
+    margin:0;
+}
+.tridentlogo {
+    width: 100%;
+    min-height:107px;
+    max-height: 107px;
+    padding:0;
+    margin:0;
+}
+.contact {
+    text-align:center;
+    width:50%;
+}
+.navbar {
+    display:flex;
+    flex-direction:row;   
+    margin:0;
+    padding:1px;
+    border:solid black 2px;
+}
+.navbarlinks {
+    flex:1;
+    text-align:center;
+}
+.navlink {
+    display:inline-block;
+    margin:0;    
+    min-height:50px;
+    width:100%;
+    padding-top:20%;
+    font-family: 'Raleway', sans-serif;
+}
+a.navlink:hover {
+  background-color: #FFCA0C;
+}
+#active {
+  background-color: #FFCA0C;
+}
+#page {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 40em) {
+    #page {
+        max-width: 50em;
+    }
+}
+@media screen and (min-width: 64em) {
+    #page {
+        max-width: 75em;
+    }
+}
+.body {
+    padding-left:10%;    
+    padding-right:10%;
+    padding-bottom:10%;
+    padding-top:5%;
+    background-color:#FFCA0C;
+    font-family: 'Raleway', sans-serif;
+}
+footer {
+  position:relative;
+  margin-top:1%;
+  bottom: 0;
+  width: 100%;
+  height: 107px;  
+}
+
+/* Below is CSS for Home page */
+#homejumbo {
+    min-height: 300px;    
+}
+.accreditation {
+    float:right;
+    max-width:50%;
+    padding-left:10%;
+}
+#afrapic {
+    width:100px;
+    height:160px;
+}
+.unorderedlist {
+    max-width:50%;
+}
+a .locallinks {
+    display:inline-block;
+    width:100%;
+    max-height:5px;
+}
+
+/* Below is CSS for About page */
+.aboutuspicturesdiv {
+    float:right;
+    max-width:50%;
+    padding-top:5%;
+}
+.aboutuspictures {
+    width:100%;
+}
+.aboutustext {
+    width:45%;
+}
+#feedbackform {
+    border: solid black 2px;
+    max-width: 40%;
+    padding-top: 0;
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom:2em;
+}
+#feedbacktext {
+    max-width:100%;
+}
+.eventform {
+    border: solid black 2px;
+    margin-top:10px;
+    padding:1%;
+}
+.searchform {
+    margin-bottom:10px;
+}
+
+/* Below is CSS for Contact page */
+.googlemapdiv {
+    float:right;
+    max-width:45%;
+    padding-top:5%;
+}
+iframe {
+    max-width:95%;
+}
+.contactustext {
+    width:45%;
+}
+#workinterestform {
+    border: solid black 2px;
+    max-width: 25%;
+    padding-top: 0;
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom:2em;
+}
+.workform-group {
+    max-width:100%;
+}
+.workformlabel {
+    margin-bottom:5px;
+}
+.workforminput {
+    margin-bottom:5px;
+    width:300px;
+    max-width:100%;
+}
+
+/* Below is CSS for Free Quote page */
+.freequoteformdiv {
+    text-align:center;
+    padding-left:20%;
+}
+.freequoteformdiv1 {
+    text-align:left;
+}
+#quoteform {
+    border: solid black 2px;
+    max-width: 50%;
+    padding-top: 0;
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom:2em;
+}
+.freequoteform-group {
+    max-width:100%;
+}
+.freequoteformlabel {
+    margin-bottom:5px;
+}
+.freequoteforminput {
+    margin-bottom:5px;
+    width:300px;
+    max-width:100%;
+}
+.freequotejobdetailstext {
+    max-width:100%;
+}
+
+/* Below is CSS for the Book Removal page */
+.bookingformdiv {
+    text-align:center;
+    padding-left:20%;
+}
+.bookingformdiv1 {
+    text-align:left;
+}
+#bookingform {
+    border: solid black 2px;
+    max-width: 60%;    
+    padding-top: 0;
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom:2em;
+}
+.bookingformlabel {
+    display: inline-block;    
+    margin-right:0;
+    padding-bottom:5px;
+    margin-bottom:5px;
+}
+.bookingforminput {
+    display: inline-block;
+    width:100%;
+    padding-bottom:5px;
+    margin-bottom:5px;
+}
+fieldset {
+    max-width:100%;
+}
+textarea {
+    min-width:100%;
+}
+
+/* Below is CSS for Services page */
+.tablediv {
+    text-align:center;    
+}
+table, th, td, tr {
+    border-collapse: collapse;
+    border: solid black 2px;
+}
+table {
+    width:70%;
+}
